@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 long long m = 100000000;
-int Hash(string s, int radix, long long m)
+long long Hash(string s, int radix, long long m)
 {
         int r = s.length();
         int hash = 0;
