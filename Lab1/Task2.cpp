@@ -27,7 +27,7 @@ int main()
     cin>>radix;
     set<int>v;
     int i=0;
-    while(i!=5){
+    while(i!=10){
             cin>>s;
             long long hi = Hash(s,radix,m);
             //cout<<hi<<endl;
