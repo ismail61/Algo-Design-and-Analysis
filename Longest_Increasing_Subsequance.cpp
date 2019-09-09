@@ -214,7 +214,7 @@ int Lis_normal(int arr[],int n)
 }
 int main()
 {
-    int arr[] = {1, 12, 2, 22, 5, 30, 31, 14, 17, 11};
+    int arr[] = {10,22,9,11,33};
     int n = sizeof(arr)/sizeof(arr[0]);
     //cout<<"LIS is : "<<Lis_normal(arr,n)<<endl;
     //cout<<"Lis Odd Sequence is : "<<Lis_Odd_Sequence(arr,n)<<endl;
