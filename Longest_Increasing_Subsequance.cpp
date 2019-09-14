@@ -318,3 +318,63 @@ int main()
     cout<<"Lis ALternative odd/even Sequence is : "<<Lis_ALternative_odd_even_Sequence(arr,n)<<endl;
     cout<<"LIs consecutive subsequence is : "<<Lis_consecutive_subsequence(arr,n)<<endl;
 }
+/*
+For elements 3 Lis(array) is : 1 1 1 1 1 1 1 1 1 1
+For elements 10 Lis(array) is : 1 1 2 1 1 1 1 1 1 1
+For elements 11 Lis(array) is : 1 1 2 3 1 1 1 1 1 1
+For elements 4 Lis(array) is : 1 1 2 3 2 1 1 1 1 1
+For elements 5 Lis(array) is : 1 1 2 3 2 3 1 1 1 1
+For elements 6 Lis(array) is : 1 1 2 3 2 3 4 1 1 1
+For elements 7 Lis(array) is : 1 1 2 3 2 3 4 5 1 1
+For elements 8 Lis(array) is : 1 1 2 3 2 3 4 5 6 1
+For elements 12 Lis(array) is : 1 1 2 3 2 3 4 5 6 7
+3 4 5 6 7 8 12
+LIS is : 7
+For elements 3 Lis(array) is : 1 1 1 1 1 1 1 1 1 1
+For elements 10 Lis(array) is : 1 1 1 1 1 1 1 1 1 1
+For elements 11 Lis(array) is : 1 1 1 2 1 1 1 1 1 1
+For elements 4 Lis(array) is : 1 1 1 2 1 1 1 1 1 1
+For elements 5 Lis(array) is : 1 1 1 2 1 2 1 1 1 1
+For elements 6 Lis(array) is : 1 1 1 2 1 2 1 1 1 1
+For elements 7 Lis(array) is : 1 1 1 2 1 2 1 3 1 1
+For elements 8 Lis(array) is : 1 1 1 2 1 2 1 3 1 1
+For elements 12 Lis(array) is : 1 1 1 2 1 2 1 3 1 1
+3 5 7
+Lis Odd Sequence is : 3
+For elements 3 Lis(array) is : 1 1 1 1 1 1 1 1 1 1
+For elements 10 Lis(array) is : 1 1 1 1 1 1 1 1 1 1
+For elements 11 Lis(array) is : 1 1 1 1 1 1 1 1 1 1
+For elements 4 Lis(array) is : 1 1 1 1 2 1 1 1 1 1
+For elements 5 Lis(array) is : 1 1 1 1 2 1 1 1 1 1
+For elements 6 Lis(array) is : 1 1 1 1 2 1 3 1 1 1
+For elements 7 Lis(array) is : 1 1 1 1 2 1 3 1 1 1
+For elements 8 Lis(array) is : 1 1 1 1 2 1 3 1 4 1
+For elements 12 Lis(array) is : 1 1 1 1 2 1 3 1 4 5
+4 6 8 12
+Lis Even Sequence is : 4
+For elements 3 Lis(array) is : 1 1 1 1 1 1 1 1 1 1
+For elements 10 Lis(array) is : 1 1 2 1 1 1 1 1 1 1
+For elements 11 Lis(array) is : 1 1 2 3 1 1 1 1 1 1
+For elements 4 Lis(array) is : 1 1 2 3 2 1 1 1 1 1
+For elements 5 Lis(array) is : 1 1 2 3 2 3 1 1 1 1
+For elements 6 Lis(array) is : 1 1 2 3 2 3 4 1 1 1
+For elements 7 Lis(array) is : 1 1 2 3 2 3 4 5 1 1
+For elements 8 Lis(array) is : 1 1 2 3 2 3 4 5 6 1
+For elements 12 Lis(array) is : 1 1 2 3 2 3 4 5 6 6
+3 4 5 6 7 8
+Lis ALternative odd/even Sequence is : 6
+For elements 3 Lis(array) is : 1 1 1 1 1 1 1 1 1 1
+For elements 10 Lis(array) is : 1 1 1 1 1 1 1 1 1 1
+For elements 11 Lis(array) is : 1 1 1 2 1 1 1 1 1 1
+For elements 4 Lis(array) is : 1 1 1 2 2 1 1 1 1 1
+For elements 5 Lis(array) is : 1 1 1 2 2 3 1 1 1 1
+For elements 6 Lis(array) is : 1 1 1 2 2 3 4 1 1 1
+For elements 7 Lis(array) is : 1 1 1 2 2 3 4 5 1 1
+For elements 8 Lis(array) is : 1 1 1 2 2 3 4 5 6 1
+For elements 12 Lis(array) is : 1 1 1 2 2 3 4 5 6 3
+3 4 5 6 7 8
+LIs consecutive subsequence is : 6
+
+Process returned 0 (0x0)   execution time : 0.876 s
+Press any key to continue.
+*/
