@@ -12,7 +12,7 @@ void Find_(int coin1[],int n,int tk)
     }coin[0]=99999;
     for(int i=1; i<=tk; i++)
     {
-        mat[0][i] = 9999999;
+        mat[0][i] = 9999999;//INF
     }
     for(int i=1; i<=n; i++)
     {
